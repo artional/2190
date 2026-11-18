@@ -1,0 +1,25 @@
+{
+  "m0": {
+    "base": "models/base",
+    "adapter": "models/m0_adapter"
+  },
+  "m1": {
+    "base": "models/base",
+    "adapter": "outputs/training/adapter"
+  },
+  "data": {
+    "screening": "data/screening.json",
+    "sft_clean": "data/sft_clean.json",
+    "fit_clean": "data/fit_clean.json",
+    "calibration": "data/calibration.json",
+    "test_clean": "data/test_clean.json",
+    "test_attack": "data/test_attack.json",
+    "test_attack_base": "data/test_attack_base.json"
+  },
+  "inference": {
+    "device": "cuda:0",
+    "batch_size": 4,
+    "token_budget": 1024,
+    "max_length": 4096
+  }
+}

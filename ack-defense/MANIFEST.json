@@ -1,0 +1,18 @@
+{
+  ".gitignore": "6ddfd7d8c31ba9b2097787ea24ec91c7419182104adde95c538efece55daa1d9",
+  "README.md": "08291175b8caab6385cd27cd66c97822013cffbf1d319bedb6456c66887d1873",
+  "ack_defense/__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+  "ack_defense/__main__.py": "cd6f2cc8b3dea902d75619756f25dd9c0e887e1c5af1b5c1e473d6ff9ffd0d5e",
+  "ack_defense/data.py": "d73ffba96476ec4ce2f6b8a98be803daaa0305bb80fd50dd15b4bdd3da19680e",
+  "ack_defense/model.py": "514d0de3b2f0e7572c3e9b6550856517d4c1fd87cd92e68887a745d67a329cf1",
+  "ack_defense/pipeline.py": "af0e129d313c5ae6caeec5748c8b72dc9cd30b5198aebfa242e4b0fa39d64f33",
+  "ack_defense/prompts.py": "8d5f148948489903ffbfa61f5b4fb5c2ee2f2465bd3e5d4d01f5bea3a5db2d51",
+  "ack_defense/selection.py": "2740023589aa592138bea423f675a8eaf257aa0ae7ecc4f32e3237218de80a13",
+  "ack_defense/statistics.py": "533e01063ac2ec9ac636661f8741f7d97a7438f009d5590613f648d86dab3721",
+  "ack_defense/training.py": "abc9ab1fc37651964b2695988000d33c989d3a9e09a5e755f926610919cc6687",
+  "ack_defense/triggers.py": "c7956068301abbabe13f997c81753547afa66371fe1e728338f874a5f39a9490",
+  "configs/main.json": "85b9d0cad3c784460e1af3e0d37152fa10189b351f1f06b4f3c7ad660e00afe7",
+  "pyproject.toml": "dfbd614b0e70f640ac6feb51b9de5e856a405a686f27d4cf311b26b1a492d558",
+  "tests/test_core.py": "31088c4d105d9ea7b02b3298d7411c93aef30c01eb5be66e7361175140b1bfbf",
+  "tests/test_reader.py": "c971088a3e1c3da1c4800293f5fd4405a8429e45656584a0be0abfc8f98054c9"
+}
