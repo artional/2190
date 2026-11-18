@@ -78,9 +78,3 @@ The core reference interaction is `delta_d = r_M1(T_d(x); ACK) - r_M1(x; ACK)`, 
 `score` returns per-request scores and block decisions. A deployment blocks flagged requests and generates from the original, unmodified request only when allowed. The package provides the detector rather than a serving framework; it does not implement streaming or KV-cache reuse. Hooks are removed after every feature-extraction forward, including exceptional exits.
 
 Evaluation reports AUC, TPR, raw ASR, online ASR and clean FPR. ASR uses all attack attempts as the denominator; TPR and AUC use only originally successful attacks as positives. Rates are percentages; AUC is in [0, 1]. Online ASR counts successful attacks that the detector permits. Model identities and data-split hashes are recorded in generated artifacts to prevent accidental reuse across checkpoints.
-
-## Repository contents
-
-`selection.py` implements middle-layer equal-weight screening. `triggers.py` implements the candidate bank and proxy construction. `training.py` prepares defensive SFT and invokes the external training framework. `model.py` extracts bounded-batch last-token states. `statistics.py` implements SVD, SHARED and metrics. `pipeline.py` connects the stages and audits splits. `tests/` contains CPU tests with synthetic inputs and an untrained miniature transformer.
-
-The source archive has no historical experiment paths, author metadata, git history, source-code comments or docstrings. The `###` strings inside prompt templates and the `##cobalt::73##` trigger are literal algorithm inputs and must not be removed as comments. Runtime directories are ignored by git. Do not add locally produced data, checkpoints or detector artifacts when publishing the source repository.
